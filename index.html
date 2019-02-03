@@ -27,13 +27,16 @@
 </head>
 
 <body>
-    <h2>Salary Caluculator</h2>
-    <input type="text" placeholder="First Name" id="firstNameIn" class ="inputClass">
-    <input type="text" placeholder="Last Name" id="lastNameIn" class ="inputClass">
-    <input type="text" placeholder="ID" id="idIn" class = "inputClass">
-    <input type="text" placeholder="Title" id="titleIn" class= "inputClass">
-    <input type="text" placeholder="Annual Salary" id="annualSalaryIn" class= "inputClass">
+    <h1>Salary Caluculator</h1>
+    <input type="text" placeholder="First Name" id="firstNameIn" class="inputClass">
+    <input type="text" placeholder="Last Name" id="lastNameIn" class="inputClass">
+    <input type="text" placeholder="ID" id="idIn" class="inputClass">
+    <input type="text" placeholder="Title" id="titleIn" class="inputClass">
+    <input type="text" placeholder="Annual Salary" id="annualSalaryIn" class="inputClass">
     <button id="submitButton">Submit</button>
+    <br>
+    <br>
+    <br>
     <table>
         <thead>
             <tr>
@@ -44,7 +47,7 @@
                 <th>Annual Salary</th>
             </tr>
         </thead>
-        <tbody id= "newRow">
+        <tbody id="newRow">
             <tr>
                 <td>Jen</td>
                 <td>Barber</td>
@@ -68,9 +71,12 @@
             </tr>
         </tbody>
 
+
     </table>
 
-
+    <div>
+      Total Monthly: $  <span id="totalMonthly"></span>
+    </div>
 </body>
 
 </html>
