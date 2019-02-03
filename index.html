@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="jquery.js"></script>
     <script src="client.js"></script>
@@ -24,66 +25,52 @@
         }
     </style>
 </head>
+
 <body>
-<h2>Salary Caluculator</h2>
-<input type="text" placeholder= "First Name" id="firstNameIn">
-<input type="text" placeholder= "Last Name" id="lastNameIn">
-<input type="text" placeholder= "ID" id="idIn">
-<input type="text" placeholder= "Title" id="titleIn">
-<input type="text" placeholder= "Annual Salary" id="annualSalaryIn">
-<button id="submitButton">Submit</button>
-<table>
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>ID</th>
-        <th>Title</th>
-        <th>Annual Salary</th>
-    </tr>
-    <tr>
-        <td>Jen</td>
-        <td>Barber</td>
-        <td>4521</td>
-        <td>Team Lead</td>
-        <td id="annualSalary">80,000</td>
-    </tr>
-    <tr>
-        <td>Maurice</td>
-        <td>Moss</td>
-        <td>8724</td>
-        <td>Support Team</td>
-        <td id="annualSalary">58,000</td>
-    </tr>
-    <tr>
-        <td>Roy</td>
-        <td>Smith</td>
-        <td>9623</td>
-        <td>Quality Assurance</td>
-        <td id="annualSalary">48,000</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td id="annualSalary"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>  
-    </tr>
-</table>
- 
-    
+    <h2>Salary Caluculator</h2>
+    <input type="text" placeholder="First Name" id="firstNameIn" class ="inputClass">
+    <input type="text" placeholder="Last Name" id="lastNameIn" class ="inputClass">
+    <input type="text" placeholder="ID" id="idIn" class = "inputClass">
+    <input type="text" placeholder="Title" id="titleIn" class= "inputClass">
+    <input type="text" placeholder="Annual Salary" id="annualSalaryIn" class= "inputClass">
+    <button id="submitButton">Submit</button>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+        <tbody id= "newRow">
+            <tr>
+                <td>Jen</td>
+                <td>Barber</td>
+                <td>4521</td>
+                <td>Team Lead</td>
+                <td id="annualSalary">80,000</td>
+            </tr>
+            <tr>
+                <td>Maurice</td>
+                <td>Moss</td>
+                <td>8724</td>
+                <td>Support Team</td>
+                <td id="annualSalary">58,000</td>
+            </tr>
+            <tr>
+                <td>Roy</td>
+                <td>Smith</td>
+                <td>9623</td>
+                <td>Quality Assurance</td>
+                <td id="annualSalary">48,000</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
 </body>
+
 </html>
