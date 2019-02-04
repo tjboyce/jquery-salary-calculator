@@ -27,7 +27,7 @@ function addEmployee (){
     monthlyIncome = totalCost /12;
     console.log(totalCost);
     console.log(monthlyIncome);
-    $('#totalMonthly').text(monthlyIncome);
+    $('#totalMonthly').text(monthlyIncome.toFixed (2));
     if (monthlyIncome > 20000){
         $('#totalMonthly').css('background-color', 'red');
     }
